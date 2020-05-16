@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react';
 
+// PureComponent replaces shouldComponentUpdate
+// compares prevState/current state for changes to decide whether to rerender
 class Controls extends PureComponent {
 
   render() {
